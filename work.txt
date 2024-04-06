@@ -1,0 +1,10 @@
+Project must contain the following:
+    a) Interface of Application
+
+    b) Implimentation of Consordium Blockchain
+
+    c) Hashing Algorithm / Security / Digital Signatures / Logics
+
+    d) Push the code to Github and share repository link
+
+    e) Testing of Application
