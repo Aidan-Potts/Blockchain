@@ -15,7 +15,7 @@ class Block:
 class ConsortiumBlockchain:
     def __init__(self):
         self.chain = [self.create_genesis_block()]
-        self.nodes = set()  # Set to store participating nodes
+        self.nodes = set() 
 
     def create_genesis_block(self):
         return Block(0, datetime.datetime.now(), [], "0")
@@ -52,4 +52,3 @@ class ConsortiumBlockchain:
             'amount': amount
         })
 
-# The interface code remains the same as you provided
